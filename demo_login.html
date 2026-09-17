@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>Demo login</title>
+<body style="font:16px system-ui;padding:40px">Signing in as Priya Nair (HQ Operations)…
+<script>
+var v={
+ auth_token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YThlYzI5NjA1ZWRlODU4NGY1MDllY2MiLCJtb2JpbGVOdW1iZXIiOiIrOTE5OTgwNzk1MjI5Iiwicm9sZSI6Im9wZXJhdGlvbnNfbWFuYWdlciIsImZ1bGxOYW1lIjoiUHJpeWEgTmFpciIsImlhdCI6MTc4Nzc0MDk1OSwiZXhwIjoxNzg3ODI3MzU5fQ.h6F-OLbfw-V60tAvCXD2Ti-g_m0BVUGE8XAYE1lxqew",
+ user_id:"6a8ec29605ede8584f509ecc",
+ user_name:"Priya Nair",
+ user_role:"operations_manager",
+ user_phone:"+919980795229"};
+for(var k in v){localStorage.setItem("flutter."+k,JSON.stringify(v[k]));}
+location.replace("/");
+</script></body>
